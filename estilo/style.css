@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} 
+
+:root {
+    --font-primaria: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:gray;
+}
+
+/*--Corpo-INICIO-*/
+#corpo-section {
+    margin: 30px 50px 0px 50px;
+}
+
+#corpo {
+    background-image: url("../midia/imagens/muro.jpg");
+    background-size: cover;
+    min-height: 90vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#cabecario-corpo {
+    border-bottom: 2px solid black;
+}
+
+#cabecario-corpo nav {
+    display: flex;
+}
+
+#primeiro-ano, #segundo-ano, #terceiro-ano {
+    padding: 10px;
+}
+
+#cabecario-corpo ul {
+    list-style: none;
+}
+
+#cabecario-corpo ul a {
+    color: black;
+    font-family: var(--font-primaria);
+    font-size: 1em;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#cabecario-corpo ul a:hover {
+    color: white; 
+}
+
+#primeiro-ano {
+    background-color: darkblue;
+}
+
+#segundo-ano {
+    background-color: red;   
+}
+
+#terceiro-ano {
+    background-color: green;
+}
+/*--spans--*/
+
+span.numero {
+    background-color: rgb(100, 100, 100);
+    color: rgba(255, 255, 255, 0.63);
+    padding: 3px;
+}
+
+span.link-theme {
+    color: blue;
+}
+
+span.theme {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 200px;
+    min-height: 200px;
+    border-radius : 20px;
+    background-color: rgba(36, 36, 36, 0.781);
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+}
+
+.card img {
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card p {
+    text-align: justify;
+    text-indent: 10px;
+    margin: 0px 5px 0px 5px;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.card div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#rodape {
+    margin-top: 50px;
+    background-color: lightgray;
+    padding-top: 10px;
+    border-top: 5px solid black;
+}
+
+#footer-icon {
+    display: flex;
+}
+
+#footer-icon p {
+    margin: 10px;
+}
+
+#footer-icon img {
+    width: 40px;
+    margin: 2px;
+}
