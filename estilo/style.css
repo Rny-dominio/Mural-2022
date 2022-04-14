@@ -6,6 +6,67 @@
     font-family: sans-serif;
 } 
 
+#body-friend {
+    background-color: white;
+}
+
+#cabecario-friend {
+    background-color: gray; 
+    min-height: 150px;
+}
+
+#cabecario-friend > div {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#cabecario-friend > div > h1 {
+    margin: 5px 0px 5px 0px;
+}
+
+#corpo-friend {
+    background-color: lightgray;
+    max-width: 900px;
+    min-height: 500px;
+    margin: auto;
+}
+
+#corpo-friend img {
+    max-width: 200px;
+    min-height: 200px;
+}
+
+#mural-friend {
+    margin-top: -30px;
+}
+
+.text-section-friend {
+    margin: 0px 50px 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------MURAL.HTML-------*/
+
 :root {
     --font-primaria: Arial, Helvetica, sans-serif;
 }
@@ -16,24 +77,24 @@ body {
 
 /*--Corpo-INICIO-*/
 
-#cabecario-corpo {
+.cabecario-corpo {
     border-bottom: 2px solid black;
     margin: 30px 50px 0px 50px;
 }
 
-#cabecario-corpo nav {
+.cabecario-corpo nav {
     display: flex;
 }
 
-#primeiro-ano, #segundo-ano, #terceiro-ano {
+.primeiro-ano, .segundo-ano, .terceiro-ano {
     padding: 10px;
 }
 
-#cabecario-corpo ul {
+.cabecario-corpo ul {
     list-style: none;
 }
 
-#cabecario-corpo ul a {
+.cabecario-corpo ul a {
     color: white;
     font-family: var(--font-primaria);
     font-size: 1em;
@@ -41,34 +102,34 @@ body {
     transition: 1s;
 }
 
-#cabecario-corpo ul a:hover {
+.cabecario-corpo ul a:hover {
     color: lightgray; 
 }
 
-#primeiro-ano {
+.primeiro-ano {
     background-color:blue;
     transition: 1s;
 }
 
-#primeiro-ano:hover {
+.primeiro-ano:hover {
     background-color:darkblue;
 }
 
-#segundo-ano {
+.segundo-ano {
     background-color: red; 
     transition: 1s;  
 }
 
-#segundo-ano:hover {
+.segundo-ano:hover {
     background-color: darkred;   
 }
 
-#terceiro-ano {
+.terceiro-ano {
     background-color: green;
     transition: 1s;
 }
 
-#terceiro-ano:hover {
+.terceiro-ano:hover {
     background-color: darkgreen;
 }
 /*--spans--*/
