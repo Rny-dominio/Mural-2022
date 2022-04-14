@@ -87,7 +87,7 @@ body {
     display: flex;
 }
 
-.primeiro-ano, .segundo-ano, .terceiro-ano {
+.voltar, .primeiro-ano, .segundo-ano, .terceiro-ano {
     padding: 10px;
 }
 
@@ -105,6 +105,11 @@ body {
 
 .cabecario-corpo ul a:hover {
     color: lightgray; 
+}
+
+.voltar {
+    background-color: orangered;
+    transition: 1s;
 }
 
 .primeiro-ano {
@@ -147,6 +152,10 @@ span.link-theme {
 
 span.theme {
     background-color: gray;
+}
+
+span.theme-vip {
+    background-color:  rgba(197, 197, 38, 0.911);
 }
 
 #corpo {
